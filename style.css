@@ -1,0 +1,54 @@
+
+
+html, body {
+		margin: 0;
+		padding: 0;
+		height: : 100%;
+		width: 100%;
+		background: "white";
+		background-size: cover;
+}
+
+h1 {
+	 font: normal normal bold 100px/1 Impact, Charcoal, sans-serif;
+	 color: red;
+
+}
+.content {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	position: absolute;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.button {
+	margin-left: 46.5%;
+	margin-right: 40%;
+	margin-top: 15%;
+}
+
+/* https://www.bestcssbuttongenerator.com/#/0 */
+.myButton {
+	background-color:#000000;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:3px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:8px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
